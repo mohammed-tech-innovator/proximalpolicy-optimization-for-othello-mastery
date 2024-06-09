@@ -12,9 +12,9 @@ The goal of the `fit_ppo` function is to train the model using the Proximal Poli
 
 1. **Policy Loss**: This measures the difference between the predicted action probabilities and the action probabilities that maximize the expected return. The policy loss helps the agent to learn the optimal policy by adjusting the probabilities of taking certain actions.
 
-$
-\text{Policy Loss} = -\mathbb{E}_{t} \left[ \min \left( \frac{\pi_{\theta}(a_t | s_t)}{\pi_{\theta_{\text{old}}}(a_t | s_t)} \hat{A}_t, \, \text{clip} \left( \frac{\pi_{\theta}(a_t | s_t)}{\pi_{\theta_{\text{old}}}(a_t | s_t)}, 1 - \epsilon, 1 + \epsilon \right) \hat{A}_t \right) \right]
-$
+
+$\text{Policy Loss}$ = -\mathbb{E}_{t} \left[ \min \left( \frac{\pi_{\theta}(a_t | s_t)}{\pi_{\theta_{\text{old}}}(a_t | s_t)} \hat{A}_t, \, \text{clip} \left( \frac{\pi_{\theta}(a_t | s_t)}{\pi_{\theta_{\text{old}}}(a_t | s_t)}, 1 - \epsilon, 1 + \epsilon \right) \hat{A}_t \right) \right]
+
 
 where:
 - $\pi_{\theta}$ represents the current policy.

@@ -112,4 +112,4 @@ After 5725 steps, the agent achieved the following win rates:
   
 ## Conclusion
 
-SHA-ZHA, trained with Proximal Policy Optimization and self-play, achieved superhuman Othello performance without human intervention.
+SHA-ZHA, trained with Proximal Policy Optimization and self-play, achieved superhuman Othello performance (by being tested to defeat minimax engines up to a depth of 12) without human intervention.

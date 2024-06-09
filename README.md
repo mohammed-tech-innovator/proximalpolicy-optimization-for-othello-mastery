@@ -93,9 +93,9 @@ The agent was trained for 6,000 steps. During each step, 16 parallel processes g
 ## Results
 After 5725 steps, the agent achieved the following win rates:
 
-- Against random policy: 100%.
-- Against agent with minimax depth of 7: 96.748%.
-- Against the reference agent: 68.85%.
+- Against random policy: **100%**.
+- Against agent with minimax depth of 7: **96.748%**.
+- Against the reference agent: **68.85%**.
 
 ![5725](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/35485ac7-ce47-4681-a65d-a65028a95d0d)
 

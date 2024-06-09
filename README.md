@@ -53,6 +53,28 @@ where:
 - $c_v$ is the value loss coefficient.
 - $c_e$ is the entropy loss coefficient.
 
+### Agent Network Architecture
+
+The agent consists of two deep convolutional neural networks based on ConvNeXt. The first network is the policy network, which maps different boards into a probability distribution over actions. The second network is the value network, which provides an evaluation of the board.
+
+**ConvNeXt** is a modern architecture for convolutional neural networks inspired by the design principles of vision transformers (ViTs). It combines the strengths of convolutional layers and transformer-like features, achieving state-of-the-art performance in various image recognition tasks. ConvNeXt introduces innovations such as:
+
+- **Depthwise Convolutions**: These reduce the number of parameters and computations, making the network more efficient.
+- **Layer Normalization**: This stabilizes and accelerates training by normalizing the inputs across the feature map dimensions.
+- **Residual Connections**: These help in training deeper networks by mitigating the vanishing gradient problem.
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTm384qquw_hbC0UIIhF8Jnr9gHvtNokBOCQ&s" alt="ConvNeXt" hight="250" style="display: block; margin-left: auto; margin-right: auto; border-radius: 15px;"/>
+
+Another key component that significantly speeds up the learning process is the **Convolutional Block Attention Module (CBAM)**. CBAM enhances the feature representation of the neural network by focusing on important information and suppressing irrelevant details. It consists of two sequential sub-modules:
+
+- **Channel Attention Module**: This emphasizes informative channels and suppresses less useful ones by computing channel-wise attention.
+- **Spatial Attention Module**: This enhances important spatial features and suppresses irrelevant ones by computing spatial attention maps.
+
+By applying both channel and spatial attention, CBAM improves the network's ability to focus on crucial parts of the input, leading to better performance and faster convergence.
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/0*cvZx6H1aDsSgqQ1z" alt="CBAM" width="600" style="display: block; margin-left: auto; margin-right: auto; border-radius: 15px;"/>
+
+
 ## Results
 ![5725](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/35485ac7-ce47-4681-a65d-a65028a95d0d)
 

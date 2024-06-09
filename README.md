@@ -8,7 +8,7 @@ The game's strategic intricacy poses a tremendous challenge for artificial intel
 
 Inspired by [DeepMind's AlphaZero](https://arxiv.org/abs/1712.01815) , which achieved superhuman proficiency in chess, shogi, and Go via self-play and reinforcement learning, this project adopts similar methodologies to conquer Othello. SHA-ZHA leverages parallel game simulation and [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) to empower the agent to learn and evolve through self-play autonomously, devoid of any prior human guidance.
 ## Methodology
-
+### Training algorithm
 **Proximal Policy Optimization (PPO)**: An advanced reinforcement learning algorithm developed by OpenAI. PPO balances exploration and exploitation by clipping probability ratios. This helps in stabilizing training and improving the performance of the agent.
 
 The PPO loss function consists of three components:

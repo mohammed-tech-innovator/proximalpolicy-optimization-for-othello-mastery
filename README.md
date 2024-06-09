@@ -81,7 +81,7 @@ The agent was trained for 6,000 steps. During each step, 16 parallel processes g
 
 ### Hyperparameters
 
-from step 0 upto 3000 and from 5200 upto 6000
+from step 0 upto 3000 and from 5100 upto 6000
 
 | Hyperparameter         | Value    |
 |------------------------|----------|
@@ -91,7 +91,7 @@ from step 0 upto 3000 and from 5200 upto 6000
 | Entropy Coefficient    | 0.09     |
 | Clip Parameter         | 0.2      |
 
-between 3000 and 5200 
+between 3000 and 5100 
 
 | Hyperparameter         | Value    |
 |------------------------|----------|

@@ -99,6 +99,8 @@ After 5725 steps, the agent achieved the following win rates:
 
 ![5725](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/35485ac7-ce47-4681-a65d-a65028a95d0d)
 
+![Video](https://youtu.be/9qXpWrR48Hg)
+
 ## Conclusion
 
 

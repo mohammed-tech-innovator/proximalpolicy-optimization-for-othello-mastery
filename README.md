@@ -101,13 +101,15 @@ After 5725 steps, the agent achieved the following win rates:
 
 ![5725](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/35485ac7-ce47-4681-a65d-a65028a95d0d)
 
-Video below shows how SHA-ZA defeats a minimax engine with a depth of 12:
+- Video below shows how SHA-ZA defeats a minimax engine with a depth of 12:
 <p align="center">
   <a href="https://youtu.be/9qXpWrR48Hg">
     <img src="https://img.youtube.com/vi/9qXpWrR48Hg/0.jpg" alt="Project Demo" width="560">
   </a>
 </p>
 
+- Other checkpoints: 1000 steps, 1950 steps, 2500 steps, 3000 steps, 4000 steps, 4150 steps, and 5025 steps.
+  
 ## Conclusion
 
 

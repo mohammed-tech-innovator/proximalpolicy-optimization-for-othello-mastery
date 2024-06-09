@@ -1,6 +1,6 @@
-# <span style="color:blue">Proximal Policy Optimization</span> for <span style="color:green">Othello Mastery</span>
+# Proximal Policy Optimization for Othello Mastery
 
-Step into the world of "<span style="font-style:italic">The Strategic Heuristic Algorithm with Zero-Human Advancement</span>"! Our endeavor focuses on mastering the game of Othello through the <span style="text-decoration:underline">sophisticated blend</span> of parallel self-play and the <span style="font-weight:bold">Proximal Policy Optimization algorithm</span>.
+Welcome to the development of "The Strategic Heuristic Algorithm with Zero-Human Advancement"! This project focuses on mastering the game of Othello using parallel self-playing and the Proximal Policy Optimization algorithm.
 
 
 ## Introduction

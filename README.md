@@ -79,6 +79,28 @@ By applying both channel and spatial attention, CBAM improves the network's abil
 The agent was trained for 6,000 steps. During each step, 16 parallel processes generated 512 games each. Every 25 steps, the agent was tested against four opponents: a random policy, a reference agent trained using the same approach, a minimax agent with a depth of 7, and the current best agent. If the agent defeated the best agent, a checkpoint was saved.
 - **Hardware**: Nvidia RTX A5000
 
+### Hyperparameters
+
+from step 0 upto 3000 and from 5200 upto 6000
+
+| Hyperparameter         | Value    |
+|------------------------|----------|
+| Learning Rate          | 0.00005  |
+| Batch Size             | 256      |
+| Value Coefficient      | 0.5      |
+| Entropy Coefficient    | 0.09     |
+| Clip Parameter         | 0.2      |
+
+between 3000 and 5200 
+
+| Hyperparameter         | Value    |
+|------------------------|----------|
+| Learning Rate          | 0.00005  |
+| Batch Size             | 256      |
+| Value Coefficient      | 0.5      |
+| Entropy Coefficient    | 0.045    |
+| Clip Parameter         | 0.2      |
+
 
 ## Results
 ![5725](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/35485ac7-ce47-4681-a65d-a65028a95d0d)

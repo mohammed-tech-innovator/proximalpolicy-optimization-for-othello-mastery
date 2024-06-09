@@ -8,7 +8,7 @@ The game's strategic intricacy poses a tremendous challenge for artificial intel
 
 Inspired by [DeepMind's AlphaZero](https://arxiv.org/abs/1712.01815) , which achieved superhuman proficiency in chess, shogi, and Go via self-play and reinforcement learning, this project adopts similar methodologies to conquer Othello. SHA-ZHA leverages parallel game simulation and [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) to empower the agent to learn and evolve through self-play autonomously, devoid of any prior human guidance.
 ## Methodology
-The goal of the `fit_ppo` function is to train the model using the Proximal Policy Optimization (PPO) loss function based on boards and returns generated from simulations. As mentioned earlier, the PPO loss function consists of three components:
+The PPO loss function consists of three components:
 
 1. **Policy Loss**: This measures the difference between the predicted action probabilities and the action probabilities that maximize the expected return. The policy loss helps the agent to learn the optimal policy by adjusting the probabilities of taking certain actions.
 

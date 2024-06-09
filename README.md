@@ -83,7 +83,7 @@ The agent was trained for 6,000 steps. During each step, 16 parallel processes g
 
 ### Hyperparameters
 
-| Hyperparameter        | Value 0-3000   | Value 3000-5100 | Value 5100-6000  |
+| Hyperparameter        | Value for steps 0-3000   | Value for steps 3000-5100 | Value for steps 5100-6000  |
 |-----------------------|----------------|------------------|------------------|
 | Batch Size            | 256            | 256              | 256              |
 | Value Coefficient     | 0.5            | 0.5              | 0.5              |

@@ -57,7 +57,7 @@ where:
 
 ### Agent Network Architecture
 
-The agent consists of two deep convolutional neural networks based on ConvNeXt. The first network is the policy network, which maps different boards into a probability distribution over actions. The second network is the value network, which provides an evaluation of the board.
+The agent consists of two deep convolutional neural networks based on [ConvNeXt](https://arxiv.org/abs/2201.03545). The first network is the policy network, which maps different boards into a probability distribution over actions. The second network is the value network, which provides an evaluation of the board.
 
 **ConvNeXt** is a modern architecture for convolutional neural networks inspired by the design principles of vision transformers (ViTs). It combines the strengths of convolutional layers and transformer-like features, achieving state-of-the-art performance in various image recognition tasks. ConvNeXt introduces innovations such as:
 
@@ -67,7 +67,7 @@ The agent consists of two deep convolutional neural networks based on ConvNeXt. 
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTm384qquw_hbC0UIIhF8Jnr9gHvtNokBOCQ&s" alt="ConvNeXt" hight="250" style="display: block; margin-left: auto; margin-right: auto; border-radius: 15px;"/>
 
-Another key component that significantly speeds up the learning process is the **Convolutional Block Attention Module (CBAM)**. CBAM enhances the feature representation of the neural network by focusing on important information and suppressing irrelevant details. It consists of two sequential sub-modules:
+Another key component that significantly speeds up the learning process is the [**Convolutional Block Attention Module (CBAM)**](https://arxiv.org/abs/1807.06521). CBAM enhances the feature representation of the neural network by focusing on important information and suppressing irrelevant details. It consists of two sequential sub-modules:
 
 - **Channel Attention Module**: This emphasizes informative channels and suppresses less useful ones by computing channel-wise attention.
 - **Spatial Attention Module**: This enhances important spatial features and suppresses irrelevant ones by computing spatial attention maps.
@@ -111,5 +111,7 @@ After 5725 steps, the agent achieved the following win rates:
 - Other checkpoints: 1000 steps, 1950 steps, 2500 steps, 3000 steps, 4000 steps, 4150 steps, and 5025 steps.
   
 ## Conclusion
+
+
 
 

@@ -8,43 +8,43 @@ The game's strategic intricacy poses a tremendous challenge for artificial intel
 
 Inspired by [DeepMind's AlphaZero](https://arxiv.org/abs/1712.01815) , which achieved superhuman proficiency in chess, shogi, and Go via self-play and reinforcement learning, this project adopts similar methodologies to conquer Othello. SHA-ZHA leverages parallel game simulation and [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) to empower the agent to learn and evolve through self-play autonomously, devoid of any prior human guidance.
 ## Methodology
-the PPO loss function consists of three components:
+PPO utilizes a loss function comprising three primary components:
 
-1. **Policy Loss**: This measures the difference between the predicted action probabilities and the action probabilities that maximize the expected return. The policy loss helps the agent to learn the optimal policy by adjusting the probabilities of taking certain actions.
+1. **Policy Loss**: Measures the disparity between predicted and optimal action probabilities.
+
+2. **Value Loss**: Evaluates the variance between predicted and observed returns.
+
+3. **Entropy Loss**: Quantifies the level of uncertainty in the agent's policy.
+
+### PPO Loss Function Components
+
+#### Policy Loss
+
+The policy loss function is defined as:
 
 $$
 \text{Policy Loss} = -\mathbb{E}_{t} \left[ \min \left( \frac{\pi_{\theta}(a_t | s_t)}{\pi_{\theta_{\text{old}}}(a_t | s_t)} \hat{A}_t, \, \text{clip} \left( \frac{\pi_{\theta}(a_t | s_t)}{\pi_{\theta_{\text{old}}}(a_t | s_t)}, 1 - \epsilon, 1 + \epsilon \right) \hat{A}_t \right) \right]
 $$
 
-where:
-- $\pi_{\theta}$ represents the current policy.
-- $\pi_{\theta_{\text{old}}}$ represents the old policy before the update.
-- $a_t$ is the action taken at time $t$.
-- $s_t$ is the state at time $t$.
-- $\hat{A}_t$ is the advantage estimate at time $t$.
-- $\epsilon$ is the clipping parameter.
+#### Value Loss
 
-2. **Value Loss**: This measures the difference between the predicted value function and the observed returns. The value loss helps the agent to accurately estimate the value of different states, which is crucial for making informed decisions.
+The value loss function is given by:
 
 $$
 \text{Value Loss} = \mathbb{E}_{t} \left[ \left( V_{\theta}(s_t) - R_t \right)^2 \right]
 $$
 
-where:
-- $V_{\theta}(s_t)$ is the predicted value function for state $s_t$.
-- $R_t$ is the observed return at time $t$.
+#### Entropy Loss
 
-3. **Entropy Loss**: This measures the uncertainty or randomness in the agent's policy. The entropy loss encourages exploration by preventing the policy from becoming too deterministic, thus promoting a more robust learning process.
+The entropy loss function is expressed as:
 
 $$
 \text{Entropy Loss} = -\mathbb{E}_{t} \left[ \sum_{a} \pi_{\theta}(a | s_t) \log \pi_{\theta}(a | s_t) \right]
 $$
 
-where:
-- $\pi_{\theta}(a | s_t)$ is the probability of taking action $a$ in state $s_t$ under the current policy.
+### Total Loss
 
-
-4. **Total Loss**: This is the combined loss function used to update the model parameters. It incorporates the policy loss, value loss, and entropy loss, balanced by their respective coefficients.
+The total loss function, incorporating the policy, value, and entropy losses, is defined as:
 
 $$
 \text{Total Loss} = \text{Policy Loss} + c_v \cdot \text{Value Loss} - c_e \cdot \text{Entropy Loss}
@@ -53,7 +53,9 @@ $$
 where:
 - $c_v$ is the value loss coefficient.
 - $c_e$ is the entropy loss coefficient.
-- 
+
+These components collectively drive the optimization process, facilitating effective policy learning and value estimation for Othello.
+
 ## Results
 ![5725](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/35485ac7-ce47-4681-a65d-a65028a95d0d)
 

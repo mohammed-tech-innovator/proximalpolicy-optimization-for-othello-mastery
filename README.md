@@ -1,5 +1,5 @@
-# <font color ="blue">proximalpolicy-optimization-for-othello-mastery</font>
-<font color ="blue">Welcome to the development of "The Strategic Heuristic Algorithm with Zero-Human Advancement"! This project focuses on mastering the game of Othello using parallel self-playing and the Proximal Policy Optimization algorithm.</font>
+<span style="color:blue">Proximal Policy Optimization</span> for <span style="color:green">Othello Mastery</span>
+Step into the world of "<span style="font-style:italic">The Strategic Heuristic Algorithm with Zero-Human Advancement</span>"! Our endeavor focuses on mastering the game of Othello through the <span style="text-decoration:underline">sophisticated blend</span> of parallel self-play and the <span style="font-weight:bold">Proximal Policy Optimization algorithm</span>.
 
 ## Introduction
 Othello, a popular board game that is sometimes called Reversi, was created in 1883 and is credited to Lewis Waterman and John W. Mollett. It eventually became standardized in its board configuration after evolving over time. Once Goro Hasegawa introduced Othello to the Japanese public in 1971, the game swiftly gained popularity throughout the world and, by 1977, was a mainstay in competitive tournaments.

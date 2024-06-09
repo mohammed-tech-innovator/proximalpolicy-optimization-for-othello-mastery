@@ -77,7 +77,7 @@ By applying both channel and spatial attention, CBAM improves the network's abil
 ### Training Process
 
 The agent was trained for 6,000 steps. During each step, 16 parallel processes generated 512 games each. Every 25 steps, the agent was tested against four opponents: a random policy, a reference agent trained using the same approach, a minimax agent with a depth of 7, and the current best agent. If the agent defeated the best agent, a checkpoint was saved.
-**Hardware**: Nvidia RTX A5000
+- **Hardware**: Nvidia RTX A5000
 
 
 ## Results

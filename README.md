@@ -7,6 +7,3 @@ Welcome to the development of "The Strategic Heuristic Algorithm with Zero-Human
 
 
 
-
-![reference_vs_MiniMax Engine, depth _ 12](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/1af29261-312d-4ab1-bade-5670c03aa943)
-

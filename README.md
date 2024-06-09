@@ -28,9 +28,9 @@ where:
 
 2. **Value Loss**: This measures the difference between the predicted value function and the observed returns. The value loss helps the agent to accurately estimate the value of different states, which is crucial for making informed decisions.
 
-<p align="center">
-  ![Screenshot 2024-06-09 143715](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/8105a880-d50f-4477-8bb6-a168dbf09ae2)
-</p>
+
+![Screenshot 2024-06-09 143715](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/8105a880-d50f-4477-8bb6-a168dbf09ae2)
+
 
 where:
 - $V_{\theta}(s_t)$ is the predicted value function for state $s_t$.
@@ -38,9 +38,9 @@ where:
 
 3. **Entropy Loss**: This measures the uncertainty or randomness in the agent's policy. The entropy loss encourages exploration by preventing the policy from becoming too deterministic, thus promoting a more robust learning process.
 
-<p align="center">
-  ![Screenshot 2024-06-09 143959](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/2a13670c-b2d3-4dd1-adee-2280e3740f58)
-</p>
+
+![Screenshot 2024-06-09 143959](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/2a13670c-b2d3-4dd1-adee-2280e3740f58)
+
 
 where:
 - $\pi_{\theta}(a | s_t)$ is the probability of taking action $a$ in state $s_t$ under the current policy.

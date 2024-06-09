@@ -112,6 +112,13 @@ After 5725 steps, the agent achieved the following win rates:
   
 ## Conclusion
 
+SHA-ZHA, trained with Proximal Policy Optimization and self-play, achieved superhuman Othello performance without human intervention.
+
+Highlights:
+- Outstanding Performance: SHA-ZHA won 100% of its games against a random policy and 96.748% against a minimax agent with a depth of 7 starting from random positions. It also defeated minimax agents with depths of 9 and 12 in head-to-head matches, despite a significant execution time imbalance (over 1:500).
+= Efficient Learning: The training process, involving parallel game simulations and regular evaluations, ensured steady and impressive improvements.
+= Smart Architecture: Advanced neural networks enabled SHA-ZHA to focus on crucial game features, accelerating learning and enhancing performance.
+
 
 
 

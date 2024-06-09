@@ -37,7 +37,7 @@ where:
 3. **Entropy Loss**: This measures the uncertainty or randomness in the agent's policy. The entropy loss encourages exploration by preventing the policy from becoming too deterministic, thus promoting a more robust learning process.
 
 $$
-\text{Entropy Loss} = -\mathbb{E}_{t} \left[ \sum_{a} \pi_{\theta}(a | s_t) \log \pi_{\theta}(a | s_t) \right]
+\text{Entropy Loss} = -\mathbb{E}_{t} \left[ \sum_{a} \pi_{\theta}(a \vert s_t) \log \pi_{\theta}(a \vert s_t) \right]
 $$
 
 where:

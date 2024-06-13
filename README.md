@@ -118,3 +118,9 @@ After 5725 steps, the agent achieved the following win rates:
 - **One interesting observation** is that from time 0:22 to 0:32 in the video, SHA-ZHA was severely outnumbered in terms of material, but the output of the value network was between 0.2 and 0.3, which is optimistic. This indicates that the model is concerned with the final outcome of the game and can strategically make smart sacrifices.
 
 
+## Get in touch
+
+- Email: [mohammed.yah.yousif@gmail.com](mailto:mohammed.yah.yousif@gmail.com)
+- Profile: [tech-innovator.me]([http://yourprofilelink.com](https://tech-innovator.me/))
+- LinkedIn: [Mohammed Yousif](https://www.linkedin.com/in/mohammed-yousif-6b272a241/)
+- X: [Mohmammed Yousif](https://x.com/Moh_yah_you)

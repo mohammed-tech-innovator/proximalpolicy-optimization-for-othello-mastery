@@ -121,6 +121,6 @@ After 5725 steps, the agent achieved the following win rates:
 ## Get in touch
 
 - Email: [mohammed.yah.yousif@gmail.com](mailto:mohammed.yah.yousif@gmail.com)
-- Profile: [tech-innovator.me]([http://yourprofilelink.com](https://tech-innovator.me/))
+- Profile: [tech-innovator.me](https://tech-innovator.me/)
 - LinkedIn: [Mohammed Yousif](https://www.linkedin.com/in/mohammed-yousif-6b272a241/)
 - X: [Mohmammed Yousif](https://x.com/Moh_yah_you)

@@ -1,8 +1,9 @@
 checkponits:
 1. 1000 steps.
 2. 1950 steps.
-3. 3000 steps.
-4. 4000 steps.
-5. 4150 steps.
-6. 5025 steps.
-7. 5725 steps.
+3. 2500 steps.
+4. 3000 steps.
+5. 4000 steps.
+6. 4150 steps.
+8. 5025 steps.
+9. 5725 steps.

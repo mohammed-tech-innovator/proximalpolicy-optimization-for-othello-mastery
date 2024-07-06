@@ -77,6 +77,7 @@ Another key component that significantly speeds up the learning process is the [
 By applying both channel and spatial attention, CBAM improves the network's ability to focus on crucial parts of the input, leading to better performance and faster convergence.
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*cvZx6H1aDsSgqQ1z" alt="CBAM" width="600" style="display: block; margin-left: auto; margin-right: auto; border-radius: 15px;"/>
+
 ### State (Board) Representation
 
 Game state is represented using 3 components :
@@ -84,6 +85,7 @@ Game state is represented using 3 components :
 - **Pieces Under Attach**: All opponent's pieces that can be captured with one move.
 - **Board**: All player's pieces are represented by 1, and all opponent's pieces are represented by -1.
 All 3 components are concatenated and used for inference.
+
 ### Training Process
 
 The agent was trained for 6,000 steps. During each step, 16 parallel processes generated 512 games each. Every 25 steps, the agent was tested against four opponents: a random policy, a reference agent trained using the same approach, a minimax agent with a depth of 7, and the current best agent. If the agent defeated the best agent, a checkpoint was saved.

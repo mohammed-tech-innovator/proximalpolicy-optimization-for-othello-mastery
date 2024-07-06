@@ -83,7 +83,7 @@ By applying both channel and spatial attention, CBAM improves the network's abil
 Game state is represented using 3 components :
 - **Legal Moves**: All legal moves an agent can take at a given position. This is also used to restrict the agent from choosing invalid moves.
 - **Pieces Under Attach**: All opponent's pieces that can be captured with one move.
-- **Board**: All player's pieces are represented by 1, and all opponent's pieces are represented by -1.\\
+- **Board**: All player's pieces are represented by 1, and all opponent's pieces are represented by -1.<br>
 All 3 components are concatenated and used for inference.
 
 ### Training Process

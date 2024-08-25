@@ -95,6 +95,7 @@ The agent was trained for 6,000 steps. During each step, 16 parallel processes g
 
 ### Hyperparameters
 <div align="center">
+  
 | Hyperparameter        | Value for steps 0-3000   | Value for steps 3000-5200 | Value for steps 5200-6000  |
 |-----------------------|----------------|------------------|------------------|
 | Batch Size            | 256            | 256              | 256              |
@@ -103,6 +104,7 @@ The agent was trained for 6,000 steps. During each step, 16 parallel processes g
 | Clip Parameter        | 0.2            | 0.2              | 0.2              |
 | Learning Rate         | 0.5e-4 (step 0) | 0.25e-4 (step 3000) | 0.125e-4 (step 6000) |
 | Games / Step         | 4096 | 8192 | 4096 |
+
 </div>
 
 

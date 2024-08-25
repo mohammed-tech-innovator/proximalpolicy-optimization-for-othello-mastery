@@ -114,12 +114,7 @@ After 5725 steps, the agent achieved the following win rates:
 
 ![5725](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/35485ac7-ce47-4681-a65d-a65028a95d0d)
 
-- Video below shows how SHA-ZA defeats a minimax engine with a depth of 12:
-<p align="center">
-  <a href="https://youtu.be/9qXpWrR48Hg">
-    <img src="https://img.youtube.com/vi/9qXpWrR48Hg/0.jpg" alt="Project Demo" width="560">
-  </a>
-</p>
+- Following the training phase, SHA-ZA was thoroughly evaluated in standard matches against Minimax agents, with search depths ranging from 6 to 12. These trials were conducted using SHA-ZA serving as both an initiator and a non-initiating player. SHA-ZA consistently beat the Minimax algorithm at all tested depths.
 
 | Match  | Minimax Depth | Initiating Player | Winner | Video Link |
 |--------|---------------|-------------------|--------|------------|

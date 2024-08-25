@@ -95,7 +95,7 @@ The agent was trained for 6,000 steps. During each step, 16 parallel processes g
 
 ### Hyperparameters
 
-| Hyperparameter        | Value for steps 0-3000   | Value for steps 3000-5200 | Value for steps 5300-6000  |
+| Hyperparameter        | Value for steps 0-3000   | Value for steps 3000-5200 | Value for steps 5200-6000  |
 |-----------------------|----------------|------------------|------------------|
 | Batch Size            | 256            | 256              | 256              |
 | Value Coefficient     | 0.5            | 0.5              | 0.5              |
@@ -120,6 +120,14 @@ After 5725 steps, the agent achieved the following win rates:
     <img src="https://img.youtube.com/vi/9qXpWrR48Hg/0.jpg" alt="Project Demo" width="560">
   </a>
 </p>
+| Match  | Minimax Depth | Initiating Player | Winner | Video Link |
+|--------|---------------|-------------------|--------|------------|
+| Match 1 | 6             | SHA-ZA            | SHA-ZA | [video 1](https://youtu.be/EajVC9woUSM) |
+| Match 2 | 6             | Minimax           | SHA-ZA | [video 2](https://youtu.be/o-xnlFO5vpk) |
+| Match 3 | 9             | SHA-ZA            | SHA-ZA | [video 3](https://youtu.be/KGrxUoulhko) |
+| Match 4 | 9             | Minimax           | SHA-ZA | [video 4](https://youtu.be/_460eicf3s8) |
+| Match 5 | 12            | SHA-ZA            | SHA-ZA | [video 5](https://youtu.be/9qXpWrR48Hg) |
+| Match 6 | 12            | Minimax           | SHA-ZA | [video 6](https://youtu.be/g2Wx_m37Oac) |
 
 - Other checkpoints: 1000 steps, 1950 steps, 2500 steps, 3000 steps, 4000 steps, 4150 steps, and 5025 steps.
   

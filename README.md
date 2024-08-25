@@ -118,7 +118,8 @@ After 5725 steps, the agent achieved the following win rates:
 ![5725](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/35485ac7-ce47-4681-a65d-a65028a95d0d)
 
 - Following the training phase, SHA-ZA was thoroughly evaluated in standard matches against Minimax agents, with search depths ranging from 6 to 12. These trials were conducted using SHA-ZA serving as both an initiator and a non-initiating player. SHA-ZA consistently beat the Minimax algorithm at all tested depths.
-
+<div align="center">
+  
 | Match  | Minimax Depth | Initiating Player | Winner | Video Link |
 |--------|---------------|-------------------|--------|------------|
 | Match 1 | 6             | SHA-ZA            | SHA-ZA | [video 1](https://youtu.be/EajVC9woUSM) |
@@ -127,6 +128,8 @@ After 5725 steps, the agent achieved the following win rates:
 | Match 4 | 9             | Minimax           | SHA-ZA | [video 4](https://youtu.be/_460eicf3s8) |
 | Match 5 | 12            | SHA-ZA            | SHA-ZA | [video 5](https://youtu.be/9qXpWrR48Hg) |
 | Match 6 | 12            | Minimax           | SHA-ZA | [video 6](https://youtu.be/g2Wx_m37Oac) |
+
+</div>
 
 - Other checkpoints: 1000 steps, 1950 steps, 2500 steps, 3000 steps, 4000 steps, 4150 steps, and 5025 steps.
   

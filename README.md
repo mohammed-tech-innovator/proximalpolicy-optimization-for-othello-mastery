@@ -17,7 +17,9 @@ The PPO loss function consists of three components:
 
 1. **Policy Loss**: This measures the difference between the predicted action probabilities and the action probabilities that maximize the expected return. The policy loss helps the agent to learn the optimal policy by adjusting the probabilities of taking certain actions.
 <div align="center">
+  
 ![Screenshot 2024-06-09 143657](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/173aa008-31b4-452c-b896-7c73c54dee7e)
+
 </div>
 where:
 - $\pi_{\theta}$ represents the current policy.
@@ -30,7 +32,9 @@ where:
 2. **Value Loss**: This measures the difference between the predicted value function and the observed returns. The value loss helps the agent to accurately estimate the value of different states, which is crucial for making informed decisions.
 
 <div align="center">
+  
 ![Screenshot 2024-06-09 143715](https://github.com/mohammed-tech-innovator/proximalpolicy-optimization-for-othello-mastery/assets/40921388/8105a880-d50f-4477-8bb6-a168dbf09ae2)
+
 </div>
 
 where:

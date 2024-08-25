@@ -120,6 +120,7 @@ After 5725 steps, the agent achieved the following win rates:
     <img src="https://img.youtube.com/vi/9qXpWrR48Hg/0.jpg" alt="Project Demo" width="560">
   </a>
 </p>
+
 | Match  | Minimax Depth | Initiating Player | Winner | Video Link |
 |--------|---------------|-------------------|--------|------------|
 | Match 1 | 6             | SHA-ZA            | SHA-ZA | [video 1](https://youtu.be/EajVC9woUSM) |

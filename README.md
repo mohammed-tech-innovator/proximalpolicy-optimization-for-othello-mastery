@@ -66,18 +66,18 @@ The agent consists of two deep convolutional neural networks based on [ConvNeXt]
 - **Depthwise Convolutions**: These reduce the number of parameters and computations, making the network more efficient.
 - **Layer Normalization**: This stabilizes and accelerates training by normalizing the inputs across the feature map dimensions.
 - **Residual Connections**: These help in training deeper networks by mitigating the vanishing gradient problem.
-
+<div align="center">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTm384qquw_hbC0UIIhF8Jnr9gHvtNokBOCQ&s" alt="ConvNeXt" hight="250" style="display: block; margin-left: auto; margin-right: auto; border-radius: 15px;"/>
-
+</div>
 Another key component that significantly speeds up the learning process is the [**Convolutional Block Attention Module (CBAM)**](https://arxiv.org/abs/1807.06521). CBAM enhances the feature representation of the neural network by focusing on important information and suppressing irrelevant details. It consists of two sequential sub-modules:
 
 - **Channel Attention Module**: This emphasizes informative channels and suppresses less useful ones by computing channel-wise attention.
 - **Spatial Attention Module**: This enhances important spatial features and suppresses irrelevant ones by computing spatial attention maps.
 
 By applying both channel and spatial attention, CBAM improves the network's ability to focus on crucial parts of the input, leading to better performance and faster convergence.
-
+<div align="center">
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*cvZx6H1aDsSgqQ1z" alt="CBAM" width="600" style="display: block; margin-left: auto; margin-right: auto; border-radius: 15px;"/>
-
+</div>
 ### State (Board) Representation
 
 Game state is represented using 3 components :

@@ -1,4 +1,6 @@
+
 # Proximal Policy Optimization for Othello Mastery
+![1725567351339](https://github.com/user-attachments/assets/0e2db856-8447-45bc-afa7-c51ebd9c725b)
 
 Welcome to the development of "The Strategic Heuristic Agent with Zero-human Advancement"! This project focuses on mastering the game of Othello using parallel self-playing and the Proximal Policy Optimization algorithm.
 

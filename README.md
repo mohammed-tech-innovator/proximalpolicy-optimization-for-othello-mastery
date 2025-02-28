@@ -2,10 +2,7 @@
 # Proximal Policy Optimization for Othello Mastery
 ![1725567351339](https://github.com/user-attachments/assets/0e2db856-8447-45bc-afa7-c51ebd9c725b)
 
-This repository contains the official code for the paper  
-["SHA-ZA: Advanced Reinforcement Learning for Othello Mastery Using Proximal Policy Optimization"](https://www.ijml.org/show-141-1380-1.html).  
-
-SHA-ZA (**Strategic Heuristic Agent with Zero-human Advancement**) masters Othello through **parallel self-play** and **Proximal Policy Optimization (PPO)**, achieving high-level gameplay without human supervision.
+Welcome to the development of "The Strategic Heuristic Agent with Zero-human Advancement"! This project focuses on mastering the game of Othello using parallel self-playing and the Proximal Policy Optimization algorithm.
 
 ## Introduction
 Othello, a popular board game that is sometimes called Reversi, was created in 1883 and is credited to Lewis Waterman and John W. Mollett. It eventually became standardized in its board configuration after evolving over time. Once Goro Hasegawa introduced Othello to the Japanese public in 1971, the game swiftly gained popularity throughout the world and, by 1977, was a mainstay in competitive tournaments.

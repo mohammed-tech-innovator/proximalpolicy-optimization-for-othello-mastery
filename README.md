@@ -10,7 +10,7 @@ SHA-ZA masters the game of Othello through **parallel self-play** and **Proximal
 
 [![Paper](https://img.shields.io/badge/Paper-IJML-blue)](https://www.ijml.org/show-141-1380-1.html)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Python](https://img.shields.io/badge/Python-3.8+-yellow)](#)
+[![Python](https://img.shields.io/badge/Python-3.10+-yellow)](#)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red)](#)
 
 ## 🎮 Introduction
